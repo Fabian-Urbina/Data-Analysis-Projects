@@ -1,34 +1,18 @@
--- HR REQUEST
---Provide a list of Healthy Individuals & Low Absenteeism for
---the healthy bonus program with a budget of $1000 USD
 
---Calculate a Wage Increase or annual compensation for Non-smokers
--- Insurance Budger of $983.221 for all Non-smokers
+USE Absenteeism_at_work;
+GO
+;
 
---Create a Dashboard for HR to understand Absenteeism at work based
---on approved wireframe
 
---- finding the healthiest
---- We have BMI as a measure of health, also if is social drinker/smoker, and hte amount of absenteeism
----in hours(if is low we can assume is healthy)
---- Our criteria for the healthiest will be: non social drinker/smoker, with BMI in [25.29.9]
---- with lower absenteeism in hours than average
 select ID,Body_mass_index,Social_drinker,Social_smoker,Absenteeism_time_in_hours
 from Absenteeism_at_work
 where Body_mass_index<24.9 and Body_mass_index>18.5
 and Social_drinker=0 and Social_drinker=0 and
 Absenteeism_time_in_hours<(select AVG(Absenteeism_time_in_hours) from Absenteeism_at_work)
 ;
----We got the ID's of the 125 healthiest employess, now we can assign them the bonus of $8
-
--- Next we count the amount of Non-smokers
 select count(ID)
 from Absenteeism_at_work
-where Social_smoker=0
-
--- considering our budget of 983.221 and that the workers do 8 hrs 5 days a week for 52 weeks in a year
----,it gives 2080hrs for worker, having 686 it give us 1426880 total hours, then we divide 983.221/1426880
---- that is 0.68$ (rounded) increase per hour
+where Social_smoker=0;
 
 select a.ID,Reason,Month_of_absence,
 case

@@ -9,7 +9,7 @@ Este repositorio contiene una compilación de proyectos de análisis de datos de
 ### 1. Absenteeism Project
 - **Descripción:** Análisis de ausentismo laboral para identificar patrones y construir visualizaciones para HR.
 - **Herramientas:** SQL, PowerBI
-- 📂 [`/Absenteeism project`](./Absenteeism%20project)
+- 📂 [`/Absenteeism project`](./Absenteeism%20Project)
 
 ---
 
