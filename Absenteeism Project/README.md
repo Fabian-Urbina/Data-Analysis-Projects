@@ -98,4 +98,4 @@ on a.Reason_for_absence=r.Number
 
 ![Dashboard preview](dashboard_preview.png)
 
-# 📊 [Descargar Power BI dashboard](Abseenteeism%20visualizations.pbix)
+# 📊 [Descargar Power BI dashboard](Absenteeism%20visualizations.pbix)
