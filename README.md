@@ -1,41 +1,40 @@
-# Proyectos de Análisis de Datos 📊
+# 📊 Data Analysis Portfolio
 
-Este repositorio contiene una compilación de proyectos de análisis de datos desarrollados como parte de mi aprendizaje práctico en Python, SQL, Power BI, etc. Cada carpeta representa un proyecto independiente, con su propio conjunto de datos, análisis exploratorio, visualizaciones y modelos predictivos.
-
----
-
-## 📁 Lista de proyectos
-
-### 1. Absenteeism Project
-- **Descripción:** Análisis de ausentismo laboral para identificar patrones y construir visualizaciones para HR.
-- **Herramientas:** SQL, PowerBI
-- 📂 [`/Absenteeism project`](./Absenteeism%20Project)
+A collection of data analysis projects showcasing skills in **Python, SQL, Power BI, and data visualization**.  
+Each project folder includes datasets, exploratory data analysis, visualizations, and predictive modeling.
 
 ---
 
-### 2. Mall Customers Project
-- **Descripción:** Segmentación de clientes basada en características como ingresos y puntuación de gasto, utilizando técnicas de clustering (K-means).
-- **Herramientas:** Python, pandas, matplotlib, seaborn, scikit-learn
-- 📂 [`/Mall Customers Project`](./Mall%20Customers%20Project)
+## 📁 Projects
+
+### 1. **Absenteeism Analysis**
+- **Goal:** Identify absenteeism patterns and create HR dashboards.  
+- **Tools:** SQL, Power BI  
+- 📂 [`Absenteeism Project`](./Absenteeism%20Project)
 
 ---
 
-### 3. Hotel Revenue Project
-- **Descripción:** Análisis de reservas hoteleras para identificar los principales trends y KPI's.
-- **Herramientas:** SQL, PowerBI,Excel
-- 📂 [`/Hotel Revenue Project`](./Hotel%20Revenue%20Project)
+### 2. **Mall Customers Segmentation**
+- **Goal:** Segment customers by income and spending score using K-means clustering.  
+- **Tools:** Python, pandas, matplotlib, seaborn, scikit-learn  
+- 📂 [`Mall Customers Project`](./Mall%20Customers%20Project)
 
 ---
 
-## ⚙️ Requisitos
+### 3. **Hotel Revenue Analysis**
+- **Goal:** Analyze hotel bookings to extract KPIs and trends.  
+- **Tools:** SQL, Power BI, Excel  
+- 📂 [`Hotel Revenue Project`](./Hotel%20Revenue%20Project)
 
-Para ejecutar los notebooks, se recomienda tener instalado:
+---
 
-- Python 3.8 o superior
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- jupyter
-- MySQL o Microsoft SQL Server Management Studio (SSMS)
+## ⚙️ Requirements
+
+- Python ≥ 3.8  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- jupyter  
+- MySQL or SQL Server (SSMS)

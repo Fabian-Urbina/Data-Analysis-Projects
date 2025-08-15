@@ -1,32 +1,27 @@
 # Overview
 
-HR aims to reward healthy employees and analyze absenteeism. This project includes:
-
-💪 Healthy Bonus Program: Identify healthy individuals with low absenteeism, distributing a total of $1,000 USD among them.  
-🚭 Non-Smoker Compensation: Allocate a compensation increase for non-smokers within a $983,221 USD budget.  
-📊 Absenteeism Dashboard: Build a dashboard (per approved wireframe) to visualize and analyze workplace absenteeism.
+Stake holders wants to identify the most important shopping groups based on income
+, age, and the mall shopping score. They wan the optimal ammount of groups labeled so the
+marketing team can plan a strategy.
 
 
 ## ⚙️ Requirements
  
-- [MySQL](https://dev.mysql.com/downloads/workbench/) or [SQL Server (SSMS)](https://learn.microsoft.com/es-es/ssms/install/install)
-- [PowerBI](https://www.microsoft.com/es-es/power-platform/products/power-bi/downloads)
+- Python ≥ 3.8  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- jupyter
 
 ## [Data](Data/) 📁
 
 
-### 📄 [Absenteeism_at_work](Data/Absenteeism_at_work.csv)
-**Description:** csv file with information about the employees absenteeism and their health habits.
+### 📄 [Mall Customers](Data/Mall_Customers.csv)
+**Description:** csv file with CustomerID, Gender, Age, Annual Income (k$), Spending Score (1-100) of customers.
 
-
-### 📄 [Reason](Data/Reasons.csv)
-**Description:** csv file with information about the reasons for absenteeism.
-
-
-### 📄 [compensation](Data/compensation.csv)
-**Description:** csv with file with information about the compensation for every employee.
-
-## [SQL Query 📝](Absenteeism%20query.sql)
+## [Jupyter Notebook 📝](Mall_Customers.ipynb)
 ### 💪 Healthy Bonus Program
 The criteria I used to identify healthy employees with low absenteeism were:  
 - BMI between 18.5 and 24.9  

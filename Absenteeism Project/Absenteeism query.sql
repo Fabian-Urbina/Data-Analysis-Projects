@@ -7,7 +7,7 @@ GO
 select ID,Body_mass_index,Social_drinker,Social_smoker,Absenteeism_time_in_hours
 from Absenteeism_at_work
 where Body_mass_index<24.9 and Body_mass_index>18.5
-and Social_drinker=0 and Social_drinker=0 and
+and Social_drinker=0 and Social_smoker=0 and
 Absenteeism_time_in_hours<(select AVG(Absenteeism_time_in_hours) from Absenteeism_at_work)
 ;
 select count(ID)
